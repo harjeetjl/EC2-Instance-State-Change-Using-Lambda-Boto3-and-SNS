@@ -113,11 +113,19 @@ To verify the implementation:
 
 Ensure the following items are set up and working:
 
-- SNS Topic with email subscription  
-- IAM Role (`LambdaEC2SNSRole`) with correct policy attachments  
-- Lambda Function with code and environment variable configured  
-- EventBridge Rule targeting the Lambda function  
+- SNS Topic with email subscription
+![image](https://github.com/user-attachments/assets/6f4e6c1d-1f80-4683-ae41-8bcb4d549f61)
+
+- IAM Role (`LambdaEC2SNSRole`) with correct policy attachments
+![image](https://github.com/user-attachments/assets/3d431155-3195-4db9-b97d-4b2eea64a0aa)
+
+- Lambda Function 
+![image](https://github.com/user-attachments/assets/cad95682-78c4-40b9-b639-2c3e85bb57dd)
+
 - Email notifications successfully triggered by instance state changes  
+![image](https://github.com/user-attachments/assets/3f6a9ea5-c71f-49bb-8a52-6ab74132d4f4)
+![image](https://github.com/user-attachments/assets/023fe3d5-b03b-4f47-b414-ada06601a3fa)
+
 
 ---
 
